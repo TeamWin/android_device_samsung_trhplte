@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/treltexx/
+LOCAL_PATH := device/samsung/trhplte/
 include $(call all-makefiles-under,$(LOCAL_PATH))

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_TREE := device/samsung/treltexx
+DEVICE_TREE := device/samsung/trhplte
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -38,9 +38,9 @@ TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/treltexx/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/trhplte/kernel
 BOARD_KERNEL_BASE := 0x10000000
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/treltexx/dt.img
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/trhplte/dt.img
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
